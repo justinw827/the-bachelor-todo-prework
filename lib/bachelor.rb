@@ -5,6 +5,7 @@ def get_first_name_of_season_winner(data, season)
   data[season].each do |person|
     if person["status"] == "Winner"
       nameArray = person["name"].split(' ')
+      winner = nameArray[0]
     end
     binding.pry
   end
