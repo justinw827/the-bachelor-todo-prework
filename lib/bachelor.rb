@@ -7,7 +7,6 @@ def get_first_name_of_season_winner(data, season)
       nameArray = person["name"].split(' ')
       winner = nameArray[0]
     end
-    #binding.pry
   end
 
   return winner
