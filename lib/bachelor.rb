@@ -1,6 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   data[season].each do |key|
-    new_hash[key2] = val2
+    binding.pry
   end
 end
 
