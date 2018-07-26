@@ -47,6 +47,10 @@ end
 
 def get_average_age_for_season(data, season)
   data[season].each do |personArray|
-    
+    sum = 0
+    personArray.each do |person|
+      sum += person["age"].to_f
+    end
+    average = sum / personArray.length
   end
 end
