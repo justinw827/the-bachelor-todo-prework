@@ -1,6 +1,7 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
+  winner = " "
   data[season].each do |person|
     if person["status"] == "Winner"
       nameArray = person["name"].split(' ')
